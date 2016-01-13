@@ -1,8 +1,11 @@
-var radius = 9;
-var myCircleArea = circleArea(radius);
-console.log(myCircleArea);
-
-function circleArea(r) {
-      var a = Math.PI * r * r;
-      return a;
+var beanCounter = 10;
+function getNumberOfItems(ordertype) {
+var beanCounter = 0;
+if (ordertype == "order") {
+// do some stuff with beanCounter...
 }
+return beanCounter;
+}
+
+console.log(beanCounter);
+getNumberOfItems("order");
