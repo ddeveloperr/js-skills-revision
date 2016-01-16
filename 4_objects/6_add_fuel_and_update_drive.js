@@ -12,6 +12,8 @@
         // Here's the property to hold the current
         // state of the engine (true if it is started and false if it is off).
         started: false,
+        // added a new property, fuel, to hold the amount of fuel in the car.
+        fuel: 0,
         // start the car
         start: function(){
             this.started = true;
@@ -24,18 +26,32 @@
         },
         drive: function() {
             if(this.started) {
-                console.log("Zoom, zoom!");
+                if(this.fuel > 0){
+                    console.log(this.make + " " + this.model + " goes brrrrm, zooom, zooom!");
+                    this.fuel = this.fuel -1;
                 } else {
-                    console.log("You need to start engine first!");
+                    console.log("Uh oh, out of fuel man!");
+                    this.stop();
+                    
                 }
+                
+            } else {
+                console.log("You need to start the engine first!");
             }
+        },
+        // add fuel to the car    
+        addFuel: function(amount) {
+            this.fuel = this.fuel + amount;
+        }
     
     };
 
     fiat.start();
     fiat.drive();
-    fiat.stop();
-    fiat.drive();
+    fiat.addFuel(2);
     fiat.start();
     fiat.drive();
+    fiat.drive();
+    fiat.drive();
+    fiat.stop();
     
