@@ -12,8 +12,6 @@
         // Here's the property to hold the current
         // state of the engine (true if it is started and false if it is off).
         started: false,
-        // added a new property, fuel, to hold the amount of fuel in the car.
-        fuel: 0,
         // start the car
         start: function(){
             this.started = true;
@@ -30,10 +28,7 @@
                 } else {
                     console.log("You need to start engine first!");
                 }
-            },
-        addFuel: function(amount) {
-            this.fuel = this.fuel + amount;
-        }
+            }
     
     };
 
