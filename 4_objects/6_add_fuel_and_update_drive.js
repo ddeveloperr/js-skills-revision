@@ -1,5 +1,5 @@
 
-// 
+ 
 // Call function from object. Note how "this" worfing.
     var fiat = {
         make: "Fiat",
@@ -26,6 +26,7 @@
         },
         drive: function() {
             if(this.started) {
+                // check to make sure there’s fuel before we drive the car
                 if(this.fuel > 0){
                     console.log(this.make + " " + this.model + " goes brrrrm, zooom, zooom!");
                     this.fuel = this.fuel -1;
