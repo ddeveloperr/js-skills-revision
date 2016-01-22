@@ -1,6 +1,7 @@
 // 
 
-console.log(typeof test1);var test1 = "qwerty";
+console.log(typeof test1);
+var test1 = "qwerty";
 var test2 = 123;
 var test3 = true;
 var test4 = {};
