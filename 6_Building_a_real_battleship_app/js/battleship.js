@@ -12,7 +12,7 @@ var model = {
 		{ locations: [0, 0, 0], hits: ["", "", ""] }
 	],
 
-// original hard-coded values for ship locations
+// original hard-coded values for ship locations - use it in test
 /*
 	ships: [
 		{ locations: ["06", "16", "26"], hits: ["", "", ""] },
