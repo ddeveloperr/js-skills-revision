@@ -1,0 +1,22 @@
+ <!-- Jumbotron -->
+      <div class="jumbotron">
+	  <div class="row">
+		<div class="col-md-4">
+				<img src="http://i.imgur.com/cohI4Eo.png" />
+		</div>
+		<div class="col-md-8">
+			<h1>Ja sam Angularjs</h1>
+			<p class="lead">Ovo je projekat koji je nastao kao produkt u pocetnoj fazi upoznavanja sa angularJS-om. To je jednostavna Single Page Application koja je primjena core koncepta navedene tehnologije.</p>
+			<p><a class="btn btn-lg btn-success" href="https://github.com/ddeveloperr/jasam-angularjs"  target="_blank" role="button">Pogledajte code!</a></p>
+		</div>
+	</div>
+	  </div>
+      <!-- Example row of columns -->
+      <div class="row">
+        <div ng-repeat="service in services">
+        <div class="col-lg-4">
+          <h2>{{service.name}}</h2>
+            <p>{{service.description}}</p>
+            </div>
+        </div>
+      </div>

@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "name": "STA JE ANGULARJS?",
+    "description": "AngularJS je JavaScript MVC framework napravljen od strane Google-a koji vam omogućava da pravite dobro struktuirane, lake za testiranje i održavanje front-end aplikacije.AngularJS je MVC framework koji definiše brojne koncepte za pravilno organizovanje vaše veb aplikacije.",
+    "image": "http://i.imgur.com/gtop5Sb.jpg?1"
+  
+  },
+    {
+    "id": 2,
+    "name": "SVEOBUHVATAN",
+    "description": "Angular je kompletno rešenje za brz razvoj front-end dela developmenta. Nikakvi drugi pluginovi ili frejmvorci nisu potrebni da biste napravili neku data-driven aplikaciju. Angular ima sve što je potrebno za to.",
+    "image": "http://i.imgur.com/UiA7oLH.jpg"
+  
+  },
+  {
+    "id": 3,
+    "name": "LAKO SE POCINJE",
+    "description": "Početi sa Angularom je neverovatno lako. Uz pomoć par atributa dodatih postojećem HTML kodu, možete imati jednostavnu Angular aplikaciju kroz samo nekoliko minuta.",
+    "image": "http://i.imgur.com/A3JzwLe.jpg?1"
+  
+  }
+  
+]

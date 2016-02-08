@@ -1,0 +1,20 @@
+{
+  "name": "y",
+  "authors": [
+    "KemalC <ddeveloperr@gmail.com>"
+  ],
+  "description": "using bower doc",
+  "main": "test",
+  "moduleType": [],
+  "keywords": [
+    "javascript"
+  ],
+  "license": "MIT",
+  "homepage": "test",
+  "private": true,
+  "dependencies": {
+    "angular": "angularjs#~1.4.7",
+    "bootstrap": "~3.3.5",
+    "font-awesome": "~4.4.0"
+  }
+}
