@@ -1,5 +1,6 @@
 // Complete battleship.js logic
 
+// Create modeld
 var model = {
 	boardSize: 7,
 	numShips: 3,
